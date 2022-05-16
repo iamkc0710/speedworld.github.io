@@ -1,0 +1,122 @@
+/* ********** Banner Container ********** */
+
+.banner {
+    height: 85vh;
+    padding: 0px 80px;
+    width: 100%;
+    background: linear-gradient(to right,#85c6e7,#23a9e7);
+}
+
+
+/* ********** Slide Container ********** */
+.slider,
+.slider .content {
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    inset: 0;
+    margin-top: 10px;
+}
+
+
+.slide .info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 25px;
+}
+
+/* ********** Content Container ********** */
+.info-content {
+    font-size: 20px;
+    margin: 10px 0 35px;
+}
+
+.info-content button {
+    margin-top: 30px;
+}
+
+.info-content h3 {
+    font-size: 2.1em;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.info-content h3 span{
+    color: rgb(255, 68, 0);
+    font-family: 'Bowlby One SC', cursive;
+    margin-left: 8px;
+}
+
+.info-content p {
+    font-size: 15px;
+}
+
+
+/* ********** Image Container ********** */
+.slide .img {
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    margin-top: 17px;
+    width: 78%;
+    margin-left: 30px;
+}
+
+
+/* ********** Search Container ********** */
+.search-user form {
+    display: flex;
+    height: 60px;
+    min-width: 22% !important;
+    margin-top: 8px;
+}
+
+.search-user form .search-data {
+    height: 80%;
+    width: 100%;
+    padding: 12px 30px;
+    color: rgb(0, 0, 0);
+    background: rgb(246, 246, 246);
+    border: 2px solid orangered;
+    font-size: 25px;
+    border-radius: 8px 0 0 8px;
+    margin-top: 15px;
+}
+
+.search-user form button {
+    background: orangered;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 0 15px;
+    height: 80%;
+    font-weight: 600;
+    border-radius: 0 5px 5px 0;
+    margin-top: 15px;
+}
+
+/* ***** Media Query Css ***** */
+
+@media (max-width : 1218px) {
+    .slide .info {
+        display: inline;
+    }
+}
+
+/* ***** End Media Query Css ***** */

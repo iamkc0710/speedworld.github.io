@@ -1,0 +1,22 @@
+.footer{
+    background: rgb(40, 40, 40);
+color:orangered;
+margin-top: 60px;
+padding: 10px 10px;
+}
+
+.text-uppercase .search-user{
+    width: 60%;
+}
+
+.footer .search-user input{
+    padding: 10px 10px;
+    width: 350px;
+    height: 40px;
+    font-size: 1em;
+}
+
+.footer .search-user button{
+    height: 40px;
+
+}

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedWorld - Bikes Specification, Latest Bikes & Upcoming Bikes</title>
+
+    <!-- ***** Font Awesome Connector ***** -->
+    <script src="https://kit.fontawesome.com/21a146ad79.js" crossorigin="anonymous"></script>
+
+    <!-- ***** Google Font Connector ***** -->
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+
+    <!-- ***** Css Connector ***** -->
+     <link rel="stylesheet" href="./Css/menu.css">
+    <link rel="stylesheet" href="./Css/banner.css">
+    <link rel="stylesheet" href="./Css/grid.css">
+    <link rel="stylesheet" href="./Css/brand.css">
+    <link rel="stylesheet" href="./Css/featured.css"> 
+    <link rel="stylesheet" href="./Css/gallery.css"> 
+    <link rel="stylesheet" href="./Css/footer.css"> 
+
+
+    <!-- ********** FevIcon Connector ********** -->
+    <link rel="shortcut icon" href="./Images/Fevicon/android-icon-192x192.png" type="image/x-icon">
+
+    <!-- ********** Jquery Connector ********** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+
+    <!-- ********** BootStrap Connector ********** -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+    <!-- ***** Main Menu Section ***** -->
+    <div class="main-menu-bar">
+        <a href="#" class="brand-logo">Speed<span>World</span></a>
+        <div class="main-menu">
+            <ul class="menu">
+                <div class="close-btn">
+                </div>
+                <li class="menu-item"><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#" class="sub-btn">Bikes <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="#">Popular Bikes</a></li>
+                        <li class="sub-item"><a href="#">Latest Bikes</a></li>
+                        <li class="sub-item"><a href="#">Upcoming Bikes</a></li>
+                        <li class="sub-item"><a href="#">Best Bikes</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#" class="sub-btn"> Brand <i
+                            class="fa-solid fa-angle-down fa-xs"></i></a>
+                    <ul class="sub-menu">
+                        <li class="sub-item more"><a href="#" class="more-btn"> Royal Enfield &nbsp;<i
+                                    class="fa-solid fa-angle-right fa-xs"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Royal Enfield Continental GT 650</a></li>
+                                <li class="more-item"><a href="#">Royal Enfield Meteor 350</a></li>
+                                <li class="more-item"><a href="#">Royal Enfield Interceptor 650</a></li>
+                                <li class="more-item"><a href="#">Royal Enfield Himalayan</a></li>
+                                <li class="more-item"><a href="#">More &nbsp;<i
+                                            class="fa-solid fa-hand-pointer fa-xs"></i></a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more"><a href="#">KTM &nbsp;<i
+                                    class="fa-solid fa-angle-right fa-xs"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">KTM RC 200</a></li>
+                                <li class="more-item"><a href="#">KTM RC 125</a></li>
+                                <li class="more-item"><a href="#">KTM RC 390</a></li>
+                                <li class="more-item"><a href="#">KTM 390 Adventure</a></li>
+                                <li class="more-item"><a href="#">More &nbsp;<i
+                                            class="fa-solid fa-hand-pointer fa-xs"></i></a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more"><a href="#">Yamaha &nbsp;<i
+                                    class="fa-solid fa-angle-right fa-xs"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Yamaha MT-15 Version 2.0</a></li>
+                                <li class="more-item"><a href="#">Yamaha YZF R15 V3</a></li>
+                                <li class="more-item"><a href="#">Yamaha FZS-FI V3</a></li>
+                                <li class="more-item"><a href="#">Yamaha R15 V4</a></li>
+                                <li class="more-item"><a href="#">More &nbsp;<i
+                                            class="fa-solid fa-hand-pointer fa-xs"></i></a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more"><a href="#">Ducati &nbsp;<i
+                                    class="fa-solid fa-angle-right fa-xs"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Ducati Panigale V4</a></li>
+                                <li class="more-item"><a href="#">Ducati DesertX</a></li>
+                                <li class="more-item"><a href="#">Ducati Scrambler</a></li>
+                                <li class="more-item"><a href="#">Ducati Monster 821</a></li>
+                                <li class="more-item"><a href="#">More &nbsp;<i
+                                            class="fa-solid fa-hand-pointer fa-xs"></i></a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item more"><a href="#">Kawasaki &nbsp;<i
+                                    class="fa-solid fa-angle-right fa-xs"></i></a>
+                            <ul class="more-menu">
+                                <li class="more-item"><a href="#">Kawasaki Ninja GPZ900R</a></li>
+                                <li class="more-item"><a href="#">Kawasaki Ninja ZX-6R</a></li>
+                                <li class="more-item"><a href="#">Kawasaki Versys 650</a></li>
+                                <li class="more-item"><a href="#">Kawasaki Ninja H2R</a></li>
+                                <li class="more-item"><a href="#">More &nbsp;<i
+                                            class="fa-solid fa-hand-pointer fa-xs"></i></a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-item"><a href="#"> Click More &nbsp;<i
+                                    class="fa-solid fa-hand-pointer fa-xs"></i></a></li>
+
+                    </ul>
+                </li>
+
+                <li class="menu-item"><a href="#">Compare</a></li>
+                <li class="menu-item"><a href="#" class="sub-btn"> Category <i
+                            class="fa-solid fa-angle-down fa-xs"></i></a>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="#">Sport Bikes</a></li>
+                        <li class="sub-item"><a href="#">Cruiser Bikes</a></li>
+                        <li class="sub-item"><a href="#">Adventure Bikes</a></li>
+                        <li class="sub-item"><a href="#">Naked Bikes</a></li>
+                        <li class="sub-item"><a href="#">Tourer Bikes</a></li>
+                        <li class="sub-item"><a href="#">Cafe Racer Bikes</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#">Blogs</a></li>
+
+                <li class="menu-item mob-item"><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="menu-btn"></div>
+        <div class="menu-user">
+            <i class="fa-regular fa-user"></i><span>Login</span>
+        </div>
+
+    </div>
+    <!-- ***** End Main Menu Section ***** -->
+
+
+    <!-- *** Banner Bg Section *** -->
+    <div class="banner">
+        <div class="slider">
+            <div class="content">
+                <!-- *** Photo & Text Slide Item *** -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Bike is not just <br><span>a machine</span>
+                                <br> it's an <span>emotion</span> !
+                            </h3>
+                            <p class="top-down">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum sunt explicabo voluptas
+                                voluptates animi provident obcaecati. Iure, ipsa eius? Quo praesentium, consequuntur.
+                            </p>
+                            <div class="search-user">
+                                <form action="#">
+                                    <input type="search" class="search-data" placeholder="Your Dream Bike" required>
+                                    <button type="submit" class="fas fa-search sch"></button>
+                                </form>
+                                <!-- <i class="fa-regular fa-user"></i> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img src="./Images/Banner/01.png" class="img1" alt="Bike">
+                    </div>
+                </div>
+                <!-- *** End Photo & Text Slide Item *** -->
+            </div>
+        </div>
+    </div>
+    <!-- *** End Banner Bg Section *** -->
+
+
+     <!-- *** Brand Section *** -->
+     <div class="brand">
+        <h2>Popular Brand</h2>
+        <hr>
+        <div class="row">
+            <div class="colum-2 column-middle-6 column-small-12">
+                <div class="brand-box">
+                    <img src="./Images/Brands/01.png" alt="">
+                    <div class="text">
+                        <h3>Royal Enfield</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="colum-2 column-middle-6 column-small-12">
+                <div class="brand-box">
+                    <img src="./Images/Brands/02.png" alt="">
+
+                    <div class="text">
+                        <h3>KTM</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="colum-2 column-middle-6 column-small-12">
+                <div class="brand-box">
+                    <img src="./Images/Brands/03.png" alt="">
+                
+
+                    <div class="text">
+                        <h3>Honda</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="colum-2 column-middle-6 column-small-12">
+                <div class="brand-box">
+                    <img src="./Images/Brands/10.png" alt="">
+
+                    <div class="text">
+                        <h3>Suzuki</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="colum-2 column-middle-6 column-small-12">
+                <div class="brand-box">
+                    <img src="./Images/Brands/05.png" alt="">
+                    <div class="text">
+                        <h3>BMW</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="colum-3 column-middle-6 column-small-12">
+                <div class="brand-box">
+                    <img src="./Images/Brands/07.png" alt="">
+                    <div class="text">
+                        <h3>Yamaha</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row" id="more-brand">
+                <div class="colum-2 column-middle-6 column-small-12">
+                    <div class="brand-box">
+                        <img src="./Images/Brands/06.png" alt="">
+                        <div class="text">
+                            <h3>Harley Davidson</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="colum-3 column-middle-6 column-small-12">
+                    <div class="brand-box">
+                        <img src="./Images/Brands/08.png" alt="">
+                        <div class="text">
+                            <h3>Ducati</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="colum-3 column-middle-6 column-small-12">
+                    <div class="brand-box">
+                        <img src="./Images/Brands/04.png" alt="">
+                        <div class="text">
+                            <h3>Aprilia</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="colum-3 column-middle-6 column-small-12">
+                    <div class="brand-box">
+                        <img src="./Images/Brands/11.png" alt="">
+                        <div class="text">
+                            <h3>Kawasaki</h3>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="colum-3 column-middle-6 column-small-12">
+                    <div class="brand-box">
+                        <img src="./Images/Brands/12.png" alt="">
+                        <div class="text">
+                            <h3>Bajaj</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="colum-3 column-middle-6 column-small-12">
+                    <div class="brand-box">
+                        <img src="./Images/Brands/14.png" alt="">
+                        <div class="text">
+                            <h3>MV Agusta</h3>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            </div>
+            <div class="more-button">
+
+                <button type="submit" id="more-btn">More Brand</button>
+            </div>
+       
+    </div>
+    <!-- *** End Brand Section *** -->
+
+
+     <!-- *** Featured Section *** -->
+     <div class="container-fluid featured">
+             <h2>Featured Bikes</h2>
+             <hr>
+             <div class="row">
+                <div class="featured-box">
+                    <div class="item">
+                        <div class="bike-img">
+                            <a href="#">
+                                <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                                <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                            </a>
+                        </div>
+                        <div class="featured-text">
+                            <div class="bike-name">
+                                <h3>KTM 790 Duke</h3>
+                                <p>₹ 8.63 lakh</p>
+                            </div>
+                            <div class="featured-btn">
+                                <button type="button">Visit</button>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div class="bike-img">
+                            <a href="#">
+                                <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                                <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                            </a>
+                            <div class="featured-text">
+                                <div class="bike-name">
+                                    <h3>KTM 790 Duke</h3>
+                                    <p>₹ 8.63 lakh</p>
+                                </div>
+                                <div class="featured-btn">
+                                    <button type="button">Visit</button>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="featured-text">
+                            <div class="bike-name">
+                                <h3>KTM 790 Duke</h3>
+                                <p>₹ 8.63 lakh</p>
+                            </div>
+                            <div class="featured-btn">
+                                <button type="button">Visit</button>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div class="bike-img">
+                            <a href="#">
+                                <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                                <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                            </a>
+                        </div>
+                        <div class="featured-text">
+                            <div class="bike-name">
+                                <h3>KTM 790 Duke</h3>
+                                <p>₹ 8.63 lakh</p>
+                            </div>
+                            <div class="featured-btn">
+                                <button type="button">Visit</button>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div class="bike-img">
+                            <a href="#">
+                                <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                                <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                            </a>
+                        </div>
+                        <div class="featured-text">
+                            <div class="bike-name">
+                                <h3>KTM 790 Duke</h3>
+                                <p>₹ 8.63 lakh</p>
+                            </div>
+                            <div class="featured-btn">
+                                <button type="button">Visit</button>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div class="bike-img">
+                            <a href="#">
+                                <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                                <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                            </a>
+                        </div>
+                        <div class="featured-text">
+                            <div class="bike-name">
+                                <h3>KTM 790 Duke</h3>
+                                <p>₹ 8.63 lakh</p>
+                            </div>
+                            <div class="featured-btn">
+                                <button type="button">Visit</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- *** End Featured Section *** -->
+
+     <!-- *** Gallery Section *** -->
+     <div class="gallery">
+         <hr>
+         <div class="gallery-text">
+            <div class="text-inner">
+                <h2>Bike <span>Lover</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae deleniti doloremque cumque
+                    numquam quidem delectus animi commodi.</p>
+                    <div class="search-user">
+                        <form action="#">
+                            <input type="search" class="search-data" placeholder="Your Dream Bike" required>
+                            <button type="submit" class="fas fa-search sch"></button>
+                        </form>
+                        <!-- <i class="fa-regular fa-user"></i> -->
+                    </div>
+            </div>
+            <div class="image">
+                <div class="moving-img img1">
+                    <img src="./Images/Gallery/First Slide/01.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/02.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/03.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/04.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/05.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/06.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/07.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/08.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/09.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/10.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/11.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/12.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/13.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/14.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/15.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/16.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/17.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/18.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/19.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/First Slide/20.jpg" alt="Bikes-Gallery">
+                   
+                </div>
+
+                <div class="moving-img img2">
+                    <img src="./Images/Gallery/Second Slide/01.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/02.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/03.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/04.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/05.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/06.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/07.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/08.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/09.jpg" alt="Bikes-Gallery">
+                    <img src="./Images/Gallery/Second Slide/10.jpg" alt="Bikes-Gallery">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+     <!-- *** End Gallery Section *** -->
+
+      <!-- *** Featured Section *** -->
+      <div class="container-fluid featured">
+        <h2>Featured Bikes</h2>
+        <hr>
+        <div class="row">
+           <div class="featured-box">
+               <div class="item">
+                   <div class="bike-img">
+                       <a href="#">
+                           <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                           <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                       </a>
+                   </div>
+                   <div class="featured-text">
+                       <div class="bike-name">
+                           <h3>KTM 790 Duke</h3>
+                           <p>₹ 8.63 lakh</p>
+                       </div>
+                       <div class="featured-btn">
+                           <button type="button">Visit</button>
+                       </div>
+               </div>
+               </div>
+               <div class="item">
+                   <div class="bike-img">
+                       <a href="#">
+                           <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                           <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                       </a>
+                       <div class="featured-text">
+                           <div class="bike-name">
+                               <h3>KTM 790 Duke</h3>
+                               <p>₹ 8.63 lakh</p>
+                           </div>
+                           <div class="featured-btn">
+                               <button type="button">Visit</button>
+                           </div>
+                   </div>
+                   </div>
+                   <div class="featured-text">
+                       <div class="bike-name">
+                           <h3>KTM 790 Duke</h3>
+                           <p>₹ 8.63 lakh</p>
+                       </div>
+                       <div class="featured-btn">
+                           <button type="button">Visit</button>
+                       </div>
+               </div>
+               </div>
+               <div class="item">
+                   <div class="bike-img">
+                       <a href="#">
+                           <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                           <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                       </a>
+                   </div>
+                   <div class="featured-text">
+                       <div class="bike-name">
+                           <h3>KTM 790 Duke</h3>
+                           <p>₹ 8.63 lakh</p>
+                       </div>
+                       <div class="featured-btn">
+                           <button type="button">Visit</button>
+                       </div>
+               </div>
+               </div>
+               <div class="item">
+                   <div class="bike-img">
+                       <a href="#">
+                           <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                           <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                       </a>
+                   </div>
+                   <div class="featured-text">
+                       <div class="bike-name">
+                           <h3>KTM 790 Duke</h3>
+                           <p>₹ 8.63 lakh</p>
+                       </div>
+                       <div class="featured-btn">
+                           <button type="button">Visit</button>
+                       </div>
+               </div>
+               </div>
+               <div class="item">
+                   <div class="bike-img">
+                       <a href="#">
+                           <img src="./Images/Featured/01.png" class="featured-front" alt="front">
+                           <img src="./Images/Featured/02.png" class="featured-back" alt="back">
+                       </a>
+                   </div>
+                   <div class="featured-text">
+                       <div class="bike-name">
+                           <h3>KTM 790 Duke</h3>
+                           <p>₹ 8.63 lakh</p>
+                       </div>
+                       <div class="featured-btn">
+                           <button type="button">Visit</button>
+                       </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+<!-- *** End Featured Section *** -->
+
+<footer class="text-center text-lg-start footer">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">BIKES</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Popular Bike</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Latest Bike</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Upcoming Bike</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">BRAND</h5>
+  
+          <ul class="list-unstyled">
+            
+            <li>
+              <a href="#!" class="text-dark">KTM</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Yamaha</a>
+            </li>
+            <li>
+                <a href="#!" class="text-dark">Royal Enfield</a>
+              </li>
+            <li>
+              <a href="#!" class="text-dark">More Brand</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Category</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Sport Bike</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Adventure Bike</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Cruiser Bike</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">More Category</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Search Bikes</h5>
+  
+          <div class="search-user">
+            <form action="#">
+                <input type="search" class="search-data" placeholder="Your Dream Bike" required>
+                <button type="submit" class="fas fa-search sch"></button>
+            </form>
+            <!-- <i class="fa-regular fa-user"></i> -->
+        </div>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">SpeedWorld.site</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+    <!-- ********** Javascript Connector ********** -->
+    <script src="./Javascript/navbar.js"></script>
+    <script src="./Javascript/brand.js"></script>
+    <script src="./Javascript/featured.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
